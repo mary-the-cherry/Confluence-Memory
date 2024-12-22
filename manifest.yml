@@ -1,0 +1,23 @@
+modules:
+  macro:
+    - key: memory-confluence-hello-world
+      resource: main
+      resolver:
+        function: resolver
+      title: Memory Pause
+      description: Play Memory to refresh your brain!
+      categories: [media,visuals] 
+      config: true
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  runtime:
+    name: nodejs20.x
+  id: xxx
+permissions:
+  scopes:
+    - storage:app
