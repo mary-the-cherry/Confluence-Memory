@@ -38,7 +38,7 @@ Memory Game is a fun and engaging macro for Confluence that allows users to take
 2. Install Dependencies in static/hello-world: `npm install`
 3. Build static app (custom App): `npm run build`
 4. Place the images into the build folder of the static app, organized by themes.
-5. Register the app with Forge to generate a unique App ID. Run this in the root directory of the project:forge register
+5. Register the app with Forge to generate a unique App ID. Run this in the root directory of the project: `forge register`
 6. Deploy the Forge App Deploy the app to Forge: `forge deploy`
 7. Install App on your Confluence: `forge install` 
 8. Add the Memory Game to a Confluence Page
